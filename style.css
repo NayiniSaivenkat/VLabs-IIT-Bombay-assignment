@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .toolbar {
+    margin-bottom: 10px;
+  }
+  
+  tr.selected {
+    background-color: #c8e6c9;
+  }
+  
+  .toolbar button {
+    margin-right: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th.sortable {
+    cursor: pointer;
+  }
+  
+  th.sortable:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody tr {
+    transition: background-color 0.2s;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .editable {
+    background-color: #fffbcc;
+  }
+  
